@@ -2,6 +2,8 @@
 
 A modern and minimal **Quote Generator Web App** built using **HTML, CSS, and JavaScript** that fetches real-time quotes from a public API.
 
+Check it : https://arghyadip-17.github.io/synent-task6-apiintegrationproject-arghyadip/
+
 ---
 
 ## 🚀 Live Features

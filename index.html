@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quotes App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>QUOTE API - Explore for Daily Quotes</h1>
+      <p class="subtitle">A fresh quote whenever you need one</p>
+    </header>
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+      <span>Fetching quote…</span>
+    </div>
+
+    <div id="error" class="error hidden">
+      Something went wrong. Please try again.
+    </div>
+
+    <div id="quote-card" class="quote-card hidden">
+      <div class="quote-mark">"</div>
+      <p id="quote-text" class="quote-text"></p>
+      <p id="quote-author" class="quote-author"></p>
+      <div class="quote-id-badge" id="quote-id"></div>
+    </div>
+
+    <div class="actions">
+      <button id="new-btn" onclick="fetchQuote()">New Quote</button>
+      <button id="copy-btn" class="secondary" onclick="copyQuote()">Copy</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
